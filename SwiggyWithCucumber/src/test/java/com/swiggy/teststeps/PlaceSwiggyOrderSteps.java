@@ -86,6 +86,4 @@ public class PlaceSwiggyOrderSteps extends Driver {
 		String actualText = verifyMessage.getVerifyTheText();
 		Assert.assertEquals(actualText, expectedText);
 	}
-
-
 }
